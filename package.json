@@ -1,0 +1,30 @@
+{
+  "name": "easybroker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.3",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnviroment": "node",
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "./dist"
+    ]
+  }
+}
